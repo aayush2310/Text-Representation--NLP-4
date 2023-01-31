@@ -6,3 +6,9 @@ Handling of speech is also easy,as we can get a amplitude curve or graph and plo
 array of numbers.
 In case of textual data ,it is difficult to do so directly.
 The core idea is that we need to express the text into numbers so that the meaning of the text gets displayed/is understood in the numbers.
+
+When you add all the reviews of the dataset then it becomes a corpus.
+all the unique words in dataset is vocabulary
+every individual review is called document
+each individual word of review is called word.
+
