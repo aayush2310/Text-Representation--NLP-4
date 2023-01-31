@@ -1,3 +1,7 @@
 https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html
 
 Link for the Article
+
+binary=true is more useful in case of sentiment analysis
+
+max_feature is used to treat away the rear words
