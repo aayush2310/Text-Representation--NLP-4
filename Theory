@@ -1,0 +1,8 @@
+We will convert text to number and apply in NLP.
+What is feature extraction from text?
+=>Ml algo cant understand text,this process of converting text to numbers is called feature extraction/text representation/text vectorisation
+Converting image to numbers is easy as we get it already in the form of pixels.
+Handling of speech is also easy,as we can get a amplitude curve or graph and plot it,then we can get the amplitude at various points and thus we have obtained an input 
+array of numbers.
+In case of textual data ,it is difficult to do so directly.
+The core idea is that we need to express the text into numbers so that the meaning of the text gets displayed/is understood in the numbers.
