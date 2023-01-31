@@ -1,0 +1,4 @@
+import numpy as np
+import pandas as pd
+
+df=pd.DataFrame({'text':['people watch campusx','campusx watch campusx','people write comment',})
