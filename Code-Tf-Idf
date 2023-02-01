@@ -1,0 +1,16 @@
+import numpy as np
+import pandas as pd
+
+df=pd.DataFrame({'text':['people watch campusx','campusx watch campusx','people write comment',})
+df
+
+from sklearn.feature_extraction.text import TfidfVectorizer
+tfidf=TfidfVectorizer()
+tfidf.fit_transform(df['text']).toarray()
+
+print(tfidf.idf_)
+print(tfidf.get_feature_names_out())
+
+#Article link-https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html
+#log is taken because tf if b/w 0 and 1 and if any word is very rare then the idf value may be in thousands and dominate over tf during the multiplication.So log is used
+#in idf
