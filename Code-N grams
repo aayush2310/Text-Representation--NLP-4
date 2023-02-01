@@ -22,5 +22,5 @@ print(bow[1].toarray())
 
 cv.transform(["campusx watch and write comment"]).toarray()
 
-#out of vocabulary problem is being solved here.
+
 
