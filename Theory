@@ -12,3 +12,7 @@ all the unique words in dataset is vocabulary
 every individual review is called document
 each individual word of review is called word.
 
+In bag of words and n-grams each word was having equal weightage,but in tf-idf each word will be assigned different weight.
+If a word is very frequent in a particular sentence but is rare in the rest of the document(corpus),then that word becomes very important for the document D1.-that word 
+given more score as compared to the other words.
+To calculate that value,we use two terms-tf(trm frequency) and idf(inverse document frequency) and multiply them.
