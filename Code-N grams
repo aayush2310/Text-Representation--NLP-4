@@ -1,3 +1,26 @@
 import numpy as np
 import pandas as pd
 
+
+df=pd.DataFrame({'text':['people watch campusx','campusx watch campusx','people write comment',})
+df
+
+from sklearn.feature_extraction.text import CountVectorizer
+cv=CountVectorizer(ngram_range=(2,2))
+#cv=CountVectorizer(ngram_range=(1,2))-->Vocabulary will have unigram as well as bigram.
+
+bow=cv.fit_transform(df['text'])
+
+#vocab
+print(len(cv.vocabulary_))
+print(cv.vocabulary_)
+
+#bow will be a sparse matrix,to convert it into a numpy array we use toarray function.
+
+print(bow[0].toarray())
+print(bow[1].toarray())
+
+cv.transform(["campusx watch and write comment"]).toarray()
+
+#out of vocabulary problem is being solved here.
+
