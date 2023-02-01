@@ -16,3 +16,8 @@ In bag of words and n-grams each word was having equal weightage,but in tf-idf e
 If a word is very frequent in a particular sentence but is rare in the rest of the document(corpus),then that word becomes very important for the document D1.-that word 
 given more score as compared to the other words.
 To calculate that value,we use two terms-tf(trm frequency) and idf(inverse document frequency) and multiply them.
+
+Custom features-hand crafted features-made by me
+eg:-if i am making custom features for sentiment analysyis then it could be number of positive words in the review,no. of negative words,ratio of negative to positive words
+    character count,word count
+    We bring our domain knowledge and solve the problem.
